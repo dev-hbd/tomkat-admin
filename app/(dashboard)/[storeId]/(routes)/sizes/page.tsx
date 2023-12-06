@@ -32,6 +32,6 @@ const SizesPage = async ({
             </div>
         </div>
     );
-}
+};
 
 export default SizesPage;

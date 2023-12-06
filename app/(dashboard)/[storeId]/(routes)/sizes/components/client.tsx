@@ -10,14 +10,14 @@ import { DataTable } from "@/components/ui/data-table";
 import { ApiList } from "@/components/ui/api-list";
 
 interface SizesClientProps {
-    data: SizeColumn[]
+    data: SizeColumn[];
 }
 
 export const SizesClient: React.FC<SizesClientProps> = ({
     data
 }) => {
-    const router = useRouter();
     const params = useParams();
+    const router = useRouter();
 
     return (
         <>

@@ -26,5 +26,5 @@ export const columns: ColumnDef<SizeColumn>[] = [
   {
     id: "actions",
     cell: ({ row }) => <CellAction data={row.original} />
-  }
-]
+  },
+];

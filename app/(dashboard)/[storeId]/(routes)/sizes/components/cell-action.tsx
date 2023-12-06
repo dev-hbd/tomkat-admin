@@ -18,13 +18,14 @@ interface CellActionProps {
 };
 
 export const CellAction: React.FC<CellActionProps> = ({
-    data
+    data,
 }) => {
     const router = useRouter();
     const params = useParams();
 
     const [loading, setLoading] = useState(false);
     const [open, setOpen] = useState(false);
+    
 
     const onCopy = (id: string) => {
         navigator.clipboard.writeText(id);
